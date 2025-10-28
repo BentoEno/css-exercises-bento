@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+.click {
+    font-size: 28px;
+    font-family: helvetica, 'Times New Roman', sans-serif;
+}
+
+.click.go {
+    background-color: black;
+    color: white;
+}
+
+.click.no {
+    background-color: yellow;
+    color: black;
+}
