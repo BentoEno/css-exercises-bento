@@ -2,6 +2,7 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+
 body {
   margin: 0;
   background: #eee;
@@ -46,3 +47,29 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* This is where I go wild and solve this shit */
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+
+}
+
+#lefty, #righty, ul{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
