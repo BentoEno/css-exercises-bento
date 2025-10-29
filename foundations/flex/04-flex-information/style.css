@@ -24,3 +24,20 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* This is where i go wild and solve this shit */
+.title {
+  text-align: center;
+  margin: 16px auto 32px;
+}
+
+#info {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  flex-basis: 200px;
+  text-align: center;
+}
